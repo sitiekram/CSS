@@ -38,7 +38,9 @@ p
 aside
 {
     background-color: violet;
-    padding-left: 10px;
+    padding-left: 20px;
+    height: min-content;
+    margin-top: 15px;
 }
 header > a
 {
@@ -47,17 +49,19 @@ header > a
 form
 {
     border:2px solid black;
-    border-radius:5px;
+    border-radius:15px;
     padding:15px 15px;
     height:250px;
     width:350px;
     margin-top: 10px;
+    background-color: violet;
 }
 footer
 {
     font-size: 15px;
     background-color:grey;
     padding:10px 5px;
+    text-align: center;
 }
 .box {
     width: 80%;
@@ -91,15 +95,15 @@ footer
 }
 .index-container
 {
-    background-color:#4df562;
     padding:10px 20px 10px 10px;
 }
 .article-container
 {
     display:grid;
-    gap:20px;
+    gap:30px;
     grid-template-columns: 1fr 1fr;
-    padding-top:10px;
+    background-color:chartreuse;
+    padding:10px 20px;
 }
 .ToUpper
 {
@@ -112,7 +116,6 @@ footer
     justify-content: center;
     align-items: center;
     height:550px;
-    background-color: violet;
    border:0.3px solid black;
 }
 .display
@@ -146,7 +149,6 @@ footer
 }
 #login-main
 {
-  background-color:green;
   margin: auto;
   height:550px;
 }
