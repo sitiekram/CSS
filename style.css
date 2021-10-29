@@ -1,0 +1,158 @@
+body
+{
+   margin: auto;
+   font-family: sans-serif; 
+   font-size: 20px;
+   max-width:1024px;
+}
+header
+{
+    position: sticky;
+    top:0;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#ff3333;
+    color: white;
+}
+a
+{
+    text-decoration: none; 
+}
+h2
+{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+h3
+{
+    font-size: 1em;
+}
+p
+{
+  font-size:17px;
+  letter-spacing:0.7px;
+  line-height:25px;
+}
+aside
+{
+    background-color: violet;
+    padding-left: 20px;
+    height: min-content;
+    margin-top: 15px;
+}
+header > a
+{
+    margin-left: auto;
+}
+form
+{
+    border:2px solid black;
+    border-radius:15px;
+    padding:15px 15px;
+    height:250px;
+    width:350px;
+    margin-top: 10px;
+    background-color: violet;
+}
+footer
+{
+    font-size: 15px;
+    background-color:grey;
+    padding:10px 5px;
+    text-align: center;
+}
+.box {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.logo
+{
+    padding-left: 5px;
+}
+.line
+{
+  list-style: none;
+  display:inline-block;
+  padding:0 40px;
+}
+.head-color
+{
+    color: white;
+    padding-right: 30px;
+}
+.green
+{
+    color:green;
+}
+.red
+{
+    color:red;
+}
+.index-container
+{
+    padding:10px 20px 10px 10px;
+}
+.article-container
+{
+    display:grid;
+    gap:30px;
+    grid-template-columns: 1fr 1fr;
+    background-color:chartreuse;
+    padding:10px 20px;
+}
+.ToUpper
+{
+    text-transform: uppercase;
+}
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:550px;
+   border:0.3px solid black;
+}
+.display
+{
+    color:blue;
+    font-weight: bold;
+}
+.btn-style
+{
+    background-color: #5E5E5E; 
+    border-radius:6px;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-style:hover
+{
+    background-color:#cccccc;
+}
+.btn-style:active
+{
+    background-color: black;  
+}
+#index-main
+{
+   display:grid;
+   grid-template-columns: 2fr 1fr;
+}
+#login-main
+{
+  margin: auto;
+  height:550px;
+}
+#reset
+  {
+      margin:0 10px;
+  }
